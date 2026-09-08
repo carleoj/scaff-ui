@@ -1,8 +1,7 @@
 {
-  "name": "scaff-js",
+  "name": "scaff-ui",
   "version": "0.1.0",
-  "description": "A lightweight CLI for generating simple, ready-made Tailwind frontend components.",
-  "type": "module",
+  "description": "A lightweight CLI for generating simple, ready-made frontend components.",
   "bin": {
     "scf": "./bin/scf.js"
   },

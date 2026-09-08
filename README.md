@@ -12,3 +12,4 @@ Install Scaff in your existing frontend project:
 
 ```bash
 npm install scaff-js
+```
