@@ -17,16 +17,16 @@
     "html",
     "react"
   ],
-  "author": "Carl Eoj",
+  "author": "Carl P.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/carleoj/scaff-js.git"
+    "url": "git+https://github.com/carleoj/scaff-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/carleoj/scaff-js/issues"
+    "url": "https://github.com/carleoj/scaff-ui/issues"
   },
-  "homepage": "https://github.com/carleoj/scaff-js#readme",
+  "homepage": "https://github.com/carleoj/scaff-ui#readme",
   "engines": {
     "node": ">=20"
   },
