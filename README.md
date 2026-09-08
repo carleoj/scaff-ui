@@ -1,8 +1,8 @@
 # scaff-ui
 
-A lightweight CLI for generating simple, ready-made frontend components.
+Scaffold the UI. Make it yours.
 
-`scaff-ui` provides common frontend structures such as headers, heroes, and footers using Tailwind CSS. Generated components are intentionally simple, editable, and easy to adapt to your project.
+`scaff-ui` is a minimalistic CLI-based frontend component generator for developers who want to speed up development without dropping pre-made, highly opinionated UI into their projects. It generates responsive, customizable implementations of common UI patterns across multiple frontend frameworks, giving developers a practical starting point they can adapt to their project's requirements
 
 ## Features
 
