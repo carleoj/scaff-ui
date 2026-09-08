@@ -1,0 +1,22 @@
+{
+  "framework": "plain",
+  "styling": "tailwind",
+  "components": [
+    {
+      "type": "header",
+      "variant": "logo-navigation"
+    },
+    {
+      "type": "hero",
+      "variant": "heading-description-button"
+    },
+    {
+      "type": "body",
+      "variant": "text"
+    },
+    {
+      "type": "footer",
+      "variant": "copyright"
+    }
+  ]
+}

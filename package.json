@@ -1,0 +1,37 @@
+{
+  "name": "scaff-js",
+  "version": "0.1.0",
+  "description": "A lightweight CLI for generating simple, ready-made Tailwind frontend components.",
+  "type": "module",
+  "bin": {
+    "scf": "./bin/scf.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "frontend",
+    "ui",
+    "components",
+    "tailwind",
+    "html",
+    "react"
+  ],
+  "author": "Carl Eoj",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carleoj/scaff-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carleoj/scaff-js/issues"
+  },
+  "homepage": "https://github.com/carleoj/scaff-js#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.7.1"
+  }
+}
