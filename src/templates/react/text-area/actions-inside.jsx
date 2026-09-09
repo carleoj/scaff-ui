@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function base() {
+export default function TextArea() {
   return (
     <div className="mx-auto max-w-sm">
       <label htmlFor="Notes">
