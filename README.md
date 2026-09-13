@@ -2,7 +2,9 @@
 
 Scaffold the UI. Make it your design.
 
-A minimalistic CLI for generating customizable Tailwind CSS components directly into your project.
+Scaff UI is a CLI for generating minimalistic, customizable Tailwind CSS components for frontend projects.
+
+Generate ready-made UI components directly into your project, then modify the source code and make each component fit your own design.
 
 <!-- [Website](https://scaff-ui-site.jimroep.workers.dev) · [GitHub](https://github.com/carleoj/scaff-ui) -->
 
