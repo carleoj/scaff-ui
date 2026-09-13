@@ -1,30 +1,31 @@
 # scaff-ui
 
-Scaffold the UI. Make it yours.
+Scaffold the UI. Make it your design.
 
-`scaff-ui` is a minimalistic CLI-based frontend component generator for developers who want to speed up development without dropping pre-made, highly opinionated UI into their projects. It generates responsive, customizable implementations of common UI patterns across multiple frontend frameworks, giving developers a practical starting point they can adapt to their project's requirements
+A minimalistic CLI for generating customizable Tailwind CSS components directly into your project.
+
+[Website](https://scaff-ui-site.jimroep.workers.dev) · [GitHub](https://github.com/carleoj/scaff-ui)
 
 ## Features
 
-* Generate ready-made frontend components
-* Supports HTML and React
-* Multiple variants for each component
-* Uses Tailwind CSS utility classes
-* Generates directly into `src/components`
-* No project setup or configuration required
-* No unnecessary abstractions
+- Generate ready-made frontend components
+- Supports React and HTML
+- Multiple variants for each component
+- Built with Tailwind CSS
+- Generates directly into `src/components`
+- No unnecessary abstractions
 
 ## Requirements
 
-* Node.js 20 or later
-* An existing frontend project
-* Tailwind CSS already installed and configured
+- Node.js 20+
+- An existing frontend project
+- Tailwind CSS installed and configured
 
 `scaff-ui` does not install or configure Tailwind CSS, React, Vite, or other build tools.
 
 ## Installation
 
-Install `scaff-ui` in your existing frontend project:
+Install `scaff-ui` in your existing project:
 
 ```bash
 npm install scaff-ui
@@ -32,13 +33,13 @@ npm install scaff-ui
 
 ## Usage
 
-Run the interactive component generator from your project's root directory:
+Run the interactive generator:
 
 ```bash
 npx scf add
 ```
 
-You will be prompted to select a framework, component, and variant:
+Select a framework, component, and variant:
 
 ```text
 ? Select Framework
@@ -56,7 +57,7 @@ You will be prompted to select a framework, component, and variant:
   Navigation Links Only
 ```
 
-You can also specify a component directly:
+You can also generate a specific component directly:
 
 ```bash
 npx scf add header
@@ -64,7 +65,7 @@ npx scf add hero
 npx scf add footer
 ```
 
-To view available components:
+View available components:
 
 ```bash
 npx scf list
@@ -72,7 +73,7 @@ npx scf list
 
 ## Generated Files
 
-Components are generated inside your project's `src/components` directory.
+Components are generated into your project's `src/components` directory.
 
 ### React
 
@@ -100,46 +101,46 @@ src/
 
 Available variants:
 
-* Logo + Navigation Links
-* Logo + Navigation Links + CTA Button
-* Navigation Links Only
+- Logo + Navigation Links
+- Logo + Navigation Links + CTA Button
+- Navigation Links Only
 
 ### Hero
 
 Available variants:
 
-* Heading + Description + Button
-* Heading + Description + Button + Image
-* Heading + Description Only
+- Heading + Description + Button
+- Heading + Description + Button + Image
+- Heading + Description Only
 
 ### Footer
 
 Available variants:
 
-* Copyright Only
-* Copyright + Navigation Links
-* Copyright + Social Links
+- Copyright Only
+- Copyright + Navigation Links
+- Copyright + Social Links
 
 ## Tailwind CSS
 
 Generated components use Tailwind CSS utility classes.
 
-`scaff-ui` assumes Tailwind CSS is already installed and configured in your project.
+Scaff UI assumes Tailwind CSS is already installed and configured in your project.
 
 It does not:
 
-* Install Tailwind CSS
-* Configure Tailwind CSS
-* Install React
-* Configure Vite
-* Create a project
-* Manage build tools
+- Install Tailwind CSS
+- Configure Tailwind CSS
+- Install React
+- Configure Vite
+- Create a project
+- Manage build tools
 
-This keeps `scaff-ui` focused on generating frontend source code.
+Scaff UI focuses on generating frontend source code that you can modify freely.
 
 ## Development
 
-Clone the repository and install dependencies:
+Clone the repository:
 
 ```bash
 git clone https://github.com/carleoj/scaff-ui.git
@@ -153,13 +154,13 @@ Link the package locally:
 npm link
 ```
 
-You can then use the `scf` command while developing:
+Run the CLI:
 
 ```bash
 scf add
 ```
 
-Run tests with:
+Run tests:
 
 ```bash
 npm test
