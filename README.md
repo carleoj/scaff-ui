@@ -4,7 +4,7 @@ Scaffold the UI. Make it your design.
 
 A minimalistic CLI for generating customizable Tailwind CSS components directly into your project.
 
-[Website](https://scaff-ui-site.jimroep.workers.dev) · [GitHub](https://github.com/carleoj/scaff-ui)
+<!-- [Website](https://scaff-ui-site.jimroep.workers.dev) · [GitHub](https://github.com/carleoj/scaff-ui) -->
 
 ## Features
 
@@ -25,10 +25,20 @@ A minimalistic CLI for generating customizable Tailwind CSS components directly 
 
 ## Installation
 
+### Local installation
+
 Install `scaff-ui` in your existing project:
 
 ```bash
 npm install scaff-ui
+```
+
+### Global installation
+
+Install scaff-ui globally to use the scf command directly:
+
+```bash
+npm install -g scaff-ui
 ```
 
 ## Usage
