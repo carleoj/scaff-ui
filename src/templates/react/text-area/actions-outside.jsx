@@ -15,17 +15,17 @@ export default function TextArea() {
         </div>
       </label>
 
-      <div class="mt-2 flex items-center justify-end gap-2">
+      <div className="mt-2 flex items-center justify-end gap-2">
         <button
           type="button"
-          class="rounded border border-transparent px-3 py-1.5 text-sm font-medium text-gray-700 transition-colors hover:text-gray-900"
+          className="rounded border border-transparent px-3 py-1.5 text-sm font-medium text-gray-700 transition-colors hover:text-gray-900"
         >
           Clear
         </button>
 
         <button
           type="button"
-          class="rounded border border-gray-300 px-3 py-1.5 text-sm font-medium text-gray-900 shadow-sm transition-colors hover:bg-gray-100"
+          className="rounded border border-gray-300 px-3 py-1.5 text-sm font-medium text-gray-900 shadow-sm transition-colors hover:bg-gray-100"
         >
           Save
         </button>

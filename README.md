@@ -50,6 +50,7 @@ Select a framework, component, and variant:
 ❯ Header
   Hero
   Footer
+  Text Area
 
 ? Select Variant
 ❯ Logo + Navigation Links
@@ -63,6 +64,7 @@ You can also generate a specific component directly:
 npx scf add header
 npx scf add hero
 npx scf add footer
+npx scf add textArea
 ```
 
 View available components:
@@ -120,6 +122,12 @@ Available variants:
 - Copyright Only
 - Copyright + Navigation Links
 - Copyright + Social Links
+
+### Text Area
+
+Available variants:
+
+- Basic + Actions Outside
 
 ## Tailwind CSS
 

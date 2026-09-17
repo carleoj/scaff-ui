@@ -14,6 +14,9 @@ const components = {
     "Copyright + Navigation Links",
     "Copyright + Social Links",
   ],
+  TextArea: [
+    "Basic + Actions Outside"
+  ],
 };
 
 console.log("Available components:");

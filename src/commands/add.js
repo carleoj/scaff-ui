@@ -9,9 +9,10 @@ const FRAMEWORKS = [
 ];
 
 const COMPONENTS = [
-  { name: "Header", value: "header" },
-  { name: "Hero", value: "hero" },
-  { name: "Footer", value: "footer" },
+  { name: "Header", value: "header", frameworks: ["html", "react"] },
+  { name: "Hero", value: "hero", frameworks: ["html", "react"] },
+  { name: "Footer", value: "footer", frameworks: ["html", "react"] },
+  { name: "Text Area", value: "textArea", frameworks: ["react"] },
 ];
 
 const VARIANTS = {
@@ -44,6 +45,10 @@ const VARIANTS = {
     },
     { name: "Copyright + Social Links", value: "copyright-social" },
   ],
+
+  textArea: [
+    { name: "Basic + Actions Outside", value: "actions-outside"}
+  ]
 };
 
 const requestedComponent = process.argv[3];
@@ -67,16 +72,26 @@ async function addComponent() {
     process.exit(1);
   }
 
+  const requestedDefinition = COMPONENTS.find(
+    (component) => component.value === requestedComponent,
+  );
+
   const framework = await select({
     message: "Select Framework",
-    choices: FRAMEWORKS,
+    choices: requestedDefinition
+      ? FRAMEWORKS.filter((frameworkOption) =>
+          requestedDefinition.frameworks.includes(frameworkOption.value),
+        )
+      : FRAMEWORKS,
   });
 
   const type =
     requestedComponent ??
     (await select({
       message: "Select Component",
-      choices: COMPONENTS,
+      choices: COMPONENTS.filter((component) =>
+        component.frameworks.includes(framework),
+      ),
     }));
 
   if (!VARIANTS[type]) {
