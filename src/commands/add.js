@@ -12,8 +12,8 @@ const COMPONENTS = [
   { name: "Header", value: "header", frameworks: ["html", "react"] },
   { name: "Hero", value: "hero", frameworks: ["html", "react"] },
   { name: "Footer", value: "footer", frameworks: ["html", "react"] },
-  { name: "Text Area", value: "textArea", frameworks: ["react"] },
-  { name: "Newsletter", value: "newsletter", frameworks: ["react"] },
+  { name: "Text Area", value: "text-area", frameworks: ["html", "react"] },
+  { name: "Newsletter", value: "newsletter", frameworks: ["html", "react"] },
 ];
 
 const VARIANTS = {
@@ -47,8 +47,9 @@ const VARIANTS = {
     { name: "Copyright + Social Links", value: "copyright-social" },
   ],
 
-  textArea: [
-    { name: "Basic + Actions Outside", value: "actions-outside" },
+  "text-area": [
+    { name: "Actions Inside", value: "actions-inside" },
+    { name: "Actions Outside", value: "actions-outside" },
   ],
 
   newsletter: [

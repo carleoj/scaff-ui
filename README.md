@@ -77,7 +77,7 @@ You can also generate a specific component directly:
 npx scf add header
 npx scf add hero
 npx scf add footer
-npx scf add textArea
+npx scf add text-area
 npx scf add newsletter
 ```
 
@@ -141,7 +141,8 @@ Available variants:
 
 Available variants:
 
-- Basic + Actions Outside
+- Actions Inside
+- Actions Outside
 
 ### Newsletter
 

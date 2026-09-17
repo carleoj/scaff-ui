@@ -5,21 +5,19 @@ import { startSpinner } from "../utils/spinner.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const TEMPLATE_TYPES = {
-  textArea: "text-area",
-};
-
 const FILE_NAMES = {
   html: {
     header: "header.html",
     hero: "hero.html",
     footer: "footer.html",
+    "text-area": "text-area.html",
+    newsletter: "newsletter.html",
   },
   react: {
     header: "Header.jsx",
     hero: "Hero.jsx",
     footer: "Footer.jsx",
-    textArea: "TextArea.jsx",
+    "text-area": "TextArea.jsx",
     newsletter: "Newsletter.jsx",
   },
 };
@@ -30,7 +28,7 @@ function getTemplatePath(framework, type, variant) {
     "..",
     "templates",
     framework,
-    TEMPLATE_TYPES[type] ?? type,
+    type,
     `${variant}.${framework === "react" ? "jsx" : "html"}`,
   );
 }
