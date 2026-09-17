@@ -63,6 +63,7 @@ Select a framework, component, and variant:
   Hero
   Footer
   Text Area
+  Newsletter
 
 ? Select Variant
 ❯ Logo + Navigation Links
@@ -77,6 +78,7 @@ npx scf add header
 npx scf add hero
 npx scf add footer
 npx scf add textArea
+npx scf add newsletter
 ```
 
 View available components:
@@ -140,6 +142,12 @@ Available variants:
 Available variants:
 
 - Basic + Actions Outside
+
+### Newsletter
+
+Available variants:
+
+- Basic Newsletter
 
 ## Tailwind CSS
 

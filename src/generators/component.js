@@ -19,7 +19,8 @@ const FILE_NAMES = {
     header: "Header.jsx",
     hero: "Hero.jsx",
     footer: "Footer.jsx",
-    textArea: "TextArea.jsx"
+    textArea: "TextArea.jsx",
+    newsletter: "Newsletter.jsx",
   },
 };
 

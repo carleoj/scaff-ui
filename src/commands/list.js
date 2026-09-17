@@ -15,7 +15,10 @@ const components = {
     "Copyright + Social Links",
   ],
   TextArea: [
-    "Basic + Actions Outside"
+    "Basic + Actions Outside",
+  ],
+  Newsletter: [
+    "Basic Newsletter",
   ],
 };
 

@@ -13,6 +13,7 @@ const COMPONENTS = [
   { name: "Hero", value: "hero", frameworks: ["html", "react"] },
   { name: "Footer", value: "footer", frameworks: ["html", "react"] },
   { name: "Text Area", value: "textArea", frameworks: ["react"] },
+  { name: "Newsletter", value: "newsletter", frameworks: ["react"] },
 ];
 
 const VARIANTS = {
@@ -47,8 +48,12 @@ const VARIANTS = {
   ],
 
   textArea: [
-    { name: "Basic + Actions Outside", value: "actions-outside"}
-  ]
+    { name: "Basic + Actions Outside", value: "actions-outside" },
+  ],
+
+  newsletter: [
+    { name: "Basic Newsletter", value: "basic-newsletter" },
+  ],
 };
 
 const requestedComponent = process.argv[3];
