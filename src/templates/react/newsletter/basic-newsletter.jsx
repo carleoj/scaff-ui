@@ -1,6 +1,6 @@
 export default function Newsletter() {
   return (
-    <section className="mx-auto w-full max-w-xl rounded-2xl border border-gray-200 bg-zinc-50 p-8 text-center sm:p-10">
+    <section className="mx-auto w-full max-w-xl rounded-2xl border border-gray-200 bg-blue-500 p-8 text-center sm:p-10">
       <h2 className="text-3xl font-bold tracking-tight text-gray-950">
         Stay in the loop
       </h2>

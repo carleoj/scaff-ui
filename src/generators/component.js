@@ -19,6 +19,7 @@ const FILE_NAMES = {
     footer: "Footer.jsx",
     "text-area": "TextArea.jsx",
     newsletter: "Newsletter.jsx",
+    imagecard: "ImageCard.jsx",
   },
 };
 

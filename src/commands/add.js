@@ -14,6 +14,7 @@ const COMPONENTS = [
   { name: "Footer", value: "footer", frameworks: ["html", "react"] },
   { name: "Text Area", value: "text-area", frameworks: ["html", "react"] },
   { name: "Newsletter", value: "newsletter", frameworks: ["html", "react"] },
+  { name: "Card", value: "cards", frameworks: ["react"] },
 ];
 
 const VARIANTS = {
@@ -54,6 +55,10 @@ const VARIANTS = {
 
   newsletter: [
     { name: "Basic Newsletter", value: "basic-newsletter" },
+  ],
+
+  cards: [
+    { name: "Card with Image", value: "image-card" },
   ],
 };
 
